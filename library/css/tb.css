@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+ @media (max-width: 1024px) {
+
+
+.pc_v {
+}
+
+.sp_v {
+}
+
+/* 全体 */
+
+html {
+	min-width:1300px;
+	height:auto;
+}
+
+body {
+	overflow:auto;
+}
+
+/* メインビジュアル */
+
+#mainv {
+	height:500px;
+}
+
+.mainv_bg {
+	background-attachment:scroll;
+}
+
+#mainv:after {
+	content:normal;
+	display:none;
+}
+
+
+.link_list:nth-of-type(1)>.link_txt_wrap:after,
+.link_list:nth-of-type(2)>.link_txt_wrap:after,
+.link_list:nth-of-type(3)>.link_txt_wrap:after,
+.link_list:nth-of-type(4)>.link_txt_wrap:after {
+	display:none;
+}
+
+
+}
