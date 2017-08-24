@@ -16,6 +16,19 @@ function is_iphone()
     return false;
     }
 }
+
+/**
+* Bootstrapのスクリプトとスタイルをエンキュー
+*/
+
+function my_bootstrap_scripts() {
+
+wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/library/css/bootstrap.min.css');
+wp_enqueue_script( 'bootstrap-script', get_template_directory_uri() . '/library/js/bootstrap.min.js', array(), '1.0.0', true );
+}
+
+add_action( 'wp_enqueue_scripts', 'my_bootstrap_scripts' );
+
 //androidスマートフォンで閲覧されているかどうかを判定する関数
 //「mobile」文字列の有無を見ることで、タブレット端末をfalse判定
 function is_android()
