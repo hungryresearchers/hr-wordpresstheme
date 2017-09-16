@@ -48,3 +48,7 @@ Version:1.0
 	width: 40px;
 }
 }
+
+.no-margin {
+	margin: 0px;
+}

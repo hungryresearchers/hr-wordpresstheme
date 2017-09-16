@@ -16,18 +16,6 @@ html {
 	min-width:0;
 }
 
-section {
-	padding:30px 0;
-}
-
-.container {
-	width:100%;
-}
-
-
-h2 {
-	margin-bottom:30px;
-}
 
 .w920,
 .w1000,
@@ -186,7 +174,7 @@ img {
 
 #breadcrumb {
 	margin-bottom:30px;
-	font-size:11px;	
+	font-size:11px;
 }
 
 /* フッター */
@@ -351,7 +339,7 @@ img {
 	width:100%;
 	height:auto;
 	float:none;
-	position:relative;	
+	position:relative;
 }
 
 .link_txt {
@@ -416,70 +404,21 @@ img {
 	-webkit-transition:opacity 0.5s;
 }
 
-#okonomi_flow .fade_lead,
-#shokuzai .fade_lead {
-	width:100%;
-	height:auto;
+
+
+#kanamati {
 }
 
-#okonomi_flow .fade_list,
-#shokuzai .fade_list {
-	width:32.5%;
-	height:170px;
-	float:left;
-}
-
-#okonomi_flow .fade_list:nth-child(5n),
-#shokuzai .fade_list:nth-child(4n) {
-	margin-right:1.25%;
-}
-
-#okonomi_flow .fade_list:nth-of-type(3n+1),
-#shokuzai .fade_list:nth-of-type(3n+1) {
-	margin-right:0;
-}
-
-#okonomi_menu {
-}
-
-h3.menubox {
-	margin-bottom:20px;
-}
-
-#okonomi_menu>.category>table>tbody>tr>td:first-child {
-	padding-right:2.5%;
-}
-
-#okonomi_menu>.category>table>tbody>tr>td:last-child {
-	padding-left:2.5%;
-}
-
-#okonomi_menu>.category>table>tbody>tr>td>table>tbody>tr>td {
-	display:block;
-}
-
-#okonomi_menu>.category>table>tbody>tr>td>table>tbody>tr>td:first-child {
-	font-weight:bold;
-	padding-bottom:10px;
-}
-
-#okonomi_menu>.category>table>tbody>tr>td>table>tbody>tr>td:last-child {
-	padding-bottom:10px;
-}
-
-#enkai {
-}
-
-.enkai_list>.fl_left {
+.kanamati_list>.fl_left {
 	width:100%;
 }
 
-.enkai_list>.fl_right {
+.kanamati_list>.fl_right {
 	width:100%;
 	margin-top:20px;
 }
 
-.enkai_list>.fl_right h3 {
+.kanamati_list>.fl_right h3 {
 	font-size:19px;
 	color:#000;
 	margin-bottom:10px;
@@ -487,11 +426,11 @@ h3.menubox {
 	border-bottom:1px dashed #000;
 }
 
-.enkai_list>.fl_right table {
+.kanamati_list>.fl_right table {
 	margin-top:20px;
 }
 
-.enkai_list>.fl_right table td:first-child {
+.kanamati_list>.fl_right table td:first-child {
 	padding-right:40px;
 }
 
@@ -537,28 +476,28 @@ h3.menubox {
 #reservation {
 	padding:30px 5%;
 	margin-bottom:30px;
-} 
+}
 
 #reservation_page form table {
 	width:100%;
 	display:block;
-} 
+}
 
 #reservation_page form table tr {
 	width:100%;
 	display:block;
-} 
+}
 
 #reservation_page form table tr td {
 	width:100%;
 	display:block;
 	padding:0;
-} 
+}
 
 #reservation_page form table tr td:last-child {
 	width:100%;
 	padding-bottom:20px;
-} 
+}
 
 #reservation_page form input,
 #reservation_page form textarea {

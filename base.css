@@ -309,7 +309,7 @@ span.number {
 	display:block;
 	height:4px;
 	width:100%;
-	background:url(../img/mainv_bar.png);/*差し替え*/
+	background: #000;
 }
 
 .mainv_bg {

@@ -46,12 +46,12 @@ input, textarea,{
 	padding: 0;
 }
 
-ol, ul{
+ol, ul, li{
     list-style:none;
 }
 
 table{
-    border-collapse: collapse; 
+    border-collapse: collapse;
     border-spacing:0;
 }
 
@@ -64,7 +64,7 @@ a:focus {
 }
 
 .clearfix:after {
-	content: "."; 
+	content: ".";
 	display: block;
 	clear: both;
 	height: 0;
@@ -87,10 +87,10 @@ a:focus {
 	clear:both;
 }
 
-.inline_block {  
-	display: inline-block;  
-	*display: inline;  
-	*zoom: 1;  
+.inline_block {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
 }
 
 /* よく使うCSS start
@@ -140,9 +140,9 @@ a img:hover {
 }
 
 角丸 {
-	border-radius: 8px; 
+	border-radius: 8px;
 	-webkit-border-radius: 8px;
-	-moz-border-radius: 8px; 
+	-moz-border-radius: 8px;
 }
 
 トランジション {
@@ -175,10 +175,10 @@ a img:hover {
 
 スマホ対応
 @media screen and (max-width: 480px){
-	
+
 }
 @media screen and (max-width: 320px){
-	
+
 }
 
 時々使うCSS3 end */

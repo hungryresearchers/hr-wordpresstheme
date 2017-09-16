@@ -18,7 +18,6 @@
 <div id="footer">
   <div id="footer-menu">
     <a href="<?php echo home_url('/'); ?>" alt="トップ">トップ</a>
-
     <a href="<?php echo home_url('/kanamti'); ?>" alt="金町食レポ">金町食レポ</a>
     <a href="<?php echo home_url('/travel'); ?>" alt="遠征">遠征</a>
     <a href="<?php echo home_url('/misscon'); ?>" alt="ミスコン">ミスコン</a>
@@ -40,7 +39,7 @@
     </table>
 <?php endif; ?>
 
-  </div>
+</div><!-- .container -->
     <?php wp_footer(); ?>
   </body>
 </html>
